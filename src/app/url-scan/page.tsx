@@ -18,7 +18,7 @@ export default function UrlScanPage() {
     <section className="mx-auto max-w-4xl px-4 py-20">
       <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: APPLE_EASE }}>
         <h1 className={cn("text-3xl font-light mb-4", t.text)}>URL Scan</h1>
-        <p className={cn("mb-6 text-sm", t.muted)}>Scan suspicious URLs with Chimera's URL analysis engine.</p>
+        <p className={cn("mb-6 text-sm", t.muted)}>Scan suspicious URLs with Chimera&apos;s URL analysis engine.</p>
         <div className={cn("rounded-3xl border p-8", t.panel)}>
           <div className="mx-auto max-w-3xl">
             <ScannerInput session={session} />
